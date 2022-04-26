@@ -3,6 +3,6 @@ int a = int.Parse(Console.ReadLine());
 int count = - a;
 while (count <= a)
 {
-    Console.WriteLine(count);
+    Console.Write(" " + count);
     count += 1;
 }
